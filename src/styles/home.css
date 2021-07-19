@@ -1,14 +1,10 @@
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-}
 .home video {
+  display: none;
   height: 100vh;
 }
 @media screen and (min-width: 960px) {
   .home video {
+    display: flex;
     height: 100vh;
     width: 100vw;
     object-fit: cover;
