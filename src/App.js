@@ -1,11 +1,8 @@
-import './App.css';
-import zombies from './bkg-videos/zombies.webm'
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className="App">
-      <video src={zombies} autoPlay loop></video>
-    </div>
+    <Home/>
   );
 }
 

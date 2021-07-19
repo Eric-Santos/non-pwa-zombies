@@ -1,0 +1,28 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    video {
+        height: 100vh;
+        @media screen and (min-width:960px){
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0.7;
+  }
+}
+.viewport-header {
+  @media screen and (min-width:960px){
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+}
